@@ -54,7 +54,6 @@ func TestOauthClient_Authorize(t *testing.T) {
 
 	//var proxy gp.GoProxy
 	oc.Proxy = proxy.GetNewProxy()
-	c := oc.GetNewClient()
 
 	var cl Claim
 	cl.Role = "superAdmin"
@@ -71,9 +70,17 @@ func TestOauthClient_Authorize(t *testing.T) {
 	r.Header.Set("clientId", "10")
 	//r.Header.Set("userId", "lfo")
 
-	suc := c.Authorize(r, &cl, vurl)
-	fmt.Println("suc", suc)
+	suc := oc.Authorize(r, &cl, vurl)
+	fmt.Println("suc auth", suc)
 	if !suc {
+		t.Fail()
+	}
+}
+
+func TestOauthClient_GetNewProxy(t *testing.T) {
+	var oc OauthClient
+	c := oc.GetNewClient()
+	if c == nil {
 		t.Fail()
 	}
 }

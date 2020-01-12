@@ -1,13 +1,13 @@
 mode: set
 github.com/Ulbora/GoAuth2JwtValidator/mockValidator.go:32.82,34.2 1 1
 github.com/Ulbora/GoAuth2JwtValidator/mockValidator.go:37.49,41.2 3 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:75.78,84.23 6 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:102.2,102.12 1 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:84.23,87.27 2 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:87.27,100.4 10 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:105.79,108.16 3 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:122.2,122.12 1 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:108.16,110.18 2 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:110.18,117.39 4 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:117.39,119.5 1 1
-github.com/Ulbora/GoAuth2JwtValidator/validator.go:126.45,132.2 5 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:73.78,82.23 6 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:100.2,100.12 1 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:82.23,85.27 2 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:85.27,98.4 10 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:103.79,106.16 3 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:120.2,120.12 1 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:106.16,108.18 2 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:108.18,115.39 4 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:115.39,117.5 1 1
+github.com/Ulbora/GoAuth2JwtValidator/validator.go:124.45,130.2 5 1

@@ -29,8 +29,6 @@ import (
 	"strings"
 
 	gp "github.com/Ulbora/GoProxy"
-
-	cp "github.com/Ulbora/JwtCompression"
 )
 
 const (
@@ -53,7 +51,7 @@ type Client interface {
 type OauthClient struct {
 	Proxy gp.Proxy
 	//TokenCompressed bool
-	JwtCompress cp.JwtCompress
+	//JwtCompress cp.JwtCompress
 }
 
 //TokenRequest TokenRequest
