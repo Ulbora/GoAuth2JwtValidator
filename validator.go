@@ -86,7 +86,7 @@ func (o *OauthClient) Authorize(r *http.Request, c *Claim, vURL string) bool {
 		//fmt.Println("tokenArray", tokenArray)
 		if len(tokenArray) == 2 {
 			var token string
-			token = o.JwtCompress.UnCompressJwt(tokenArray[1])
+			token = tokenArray[1]
 			//fmt.Println("token:", token)
 			var vr TokenRequest
 			vr.AccessToken = token
@@ -124,6 +124,8 @@ func (o *OauthClient) validateAccessToken(vr *TokenRequest, vURL string) bool {
 
 //GetNewClient GetNewClient
 func (o *OauthClient) GetNewClient() Client {
+	var proxy gp.GoProxy
+	o.Proxy = &proxy
 	var c Client
 	c = o
 	return c
